@@ -1,4 +1,4 @@
-
+//I started over to try to "simpify things"
 var StoreLocation = function(name, hours, avgDonutsPerCust, minCust, maxCust) {
     this.name = name;
     this.hours = hours;
