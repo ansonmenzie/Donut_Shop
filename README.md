@@ -4,3 +4,11 @@ This is a model that shows how many donuts are sold on average each hour and eac
 ++++++New++++++
 
 There now is a button that allows you to add new locations.
+
++++++New++++++++
+I borrowed my color scheme ideas from
+Adobe Color CC (https://color.adobe.com/Ventana-Azul-color-theme-2159606/?showPublished=true)
+
+I used a google font for my top Header (http://fonts.googleapis.com/css?family=Walter+Turncoat)
+
+I found a cool donut image for google images (http://cdn.decoist.com/wp-content/uploads/2014/04/Colorful-donuts.jpg)
