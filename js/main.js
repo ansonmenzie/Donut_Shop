@@ -9,14 +9,14 @@ var StoreLocation = function(name, hours, avgDonutsPerCust, minCust, maxCust) {
     this.addDailyTotal = function(donuts) {
       this.dailyTotal = this.dailyTotal + donuts;
     }
-  }
+  };
     var generateRandom = function(minCust, maxCust) {
         return Math.floor(Math.random() * (maxCust - minCust + 1)) + minCust;
-      }
+      };
 
       var donutsPerHour = function(minCust, maxCust, avgDonutsPerCust) {
         return (generateRandom(minCust, maxCust) * avgDonutsPerCust);
-      }
+      };
 
       var hours = ["7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"];
 
@@ -45,14 +45,14 @@ var StoreLocation = function(name, hours, avgDonutsPerCust, minCust, maxCust) {
         cell.innerHTML = store.dailyTotal;
         row.appendChild(cell);
         tbl.appendChild(row);
-      }
+      };
 
       for(i = 0; i < shops.length; i++) {
         renderRow(shops[i]);
       }
 
     var submit = document.getElementById("sub");
-    submit.addEventListener("click", function(e) {
+    submit.addEventListener("click", function() {
     var newLoc = document.getElementById("loc").value;
     var newHrs = parseInt(document.getElementById("hrs").value);
     var newAvg = parseInt(document.getElementById("avg").value);
