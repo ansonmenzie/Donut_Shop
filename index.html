@@ -2,7 +2,6 @@
 <!-- not sure if I have all the proper head stuff but I can fix that later -->
 <html lang="en>">
   <head>
-    <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Donut Shop Sales Model</title>
@@ -11,9 +10,12 @@
   <body>
     <header>
       <h1>Mmmmm...Donuts...</h1>
+      <img src="images/colorful-donuts.jpg">
     </header>
-    <img src="http://cdn.decoist.com/wp-content/uploads/2014/04/Colorful-donuts.jpg">
-    <p>Do you like donuts?  I do...Heck, who doesn't.  Donny's Donut Shop needs to make sure that we all get our donuts.<p>Now it can do that because it has this great model for how many donuts each location sells daily.  Pretty Cool, Huh?</p>
+    <p>Candy pudding powder ice cream. Pie pudding chocolate bar dessert. Jelly-o chocolate marzipan pastry chocolate. Marzipan pastry jelly beans lemon drops halvah topping gummies chocolate. Marshmallow candy canes fruitcake fruitcake oat cake. Cake gingerbread sweet. Powder jelly-o muffin danish apple pie chocolate bar. Liquorice sugar plum caramels jujubes macaroon sweet fruitcake icing. Macaroon ice cream macaroon icing gummies. Dragée fruitcake gummi bears muffin gummies brownie.</p>
+    <div>
+      <img src="images/donut-stack.jpg">
+    </div>
     <table>
       <thead></thead>
       <tbody id="locations_table">
@@ -33,9 +35,9 @@
           <th>Total</th>
       </tbody>
     </table>
-    <p>Not seeing your Favorite Donny's Donut Shop Location?  Fill out this form to instantly add it to the list!</p>
+    <br></br>
     <form>
-      <h3>Add A New Location</h3>
+      <h3>Not seeing your Favorite Donny's Donut Shop Location?  Fill out this form to instantly add it to the list!</h3>
       <label for="loc">Loc:</label>
       <input id="loc" type="text" placeholder="Location">
       <label for="hrs">Hrs:</label>
@@ -46,9 +48,11 @@
       <input id="min" type="number" placeholder="Min Customers/Hour">
       <label for="max">Max:</label>
       <input id="max" type="number" placeholder="Max Customers/Hour">
+      <br></br>
     </form>
     <br></br>
     <button id="sub">Submit</button>
+    <br></br>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
