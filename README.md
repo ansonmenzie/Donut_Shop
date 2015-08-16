@@ -11,4 +11,10 @@ Adobe Color CC (https://color.adobe.com/Ventana-Azul-color-theme-2159606/?showPu
 
 I used a google font for my top Header (http://fonts.googleapis.com/css?family=Walter+Turncoat)
 
-I found a cool donut image for google images (http://cdn.decoist.com/wp-content/uploads/2014/04/Colorful-donuts.jpg)
+I found a cool donut image for google images (http://cdn.decoist.com/wp-content/uploads/2014/04/Colorful-donuts.jpg
+
+I found another image.(http://twindonutplus.com/wp-content/uploads/2014/09/donut-stack.jpg)
+
+I borrowed title animation code from http://codepen.io/ryansobol/pen/NPZrNw.
+
+I borrowed transformation code from http://learn.shayhowe.com/advanced-html-css/css-transforms/.
